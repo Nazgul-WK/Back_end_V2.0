@@ -5,3 +5,5 @@ class Calculator:
 
     def add(self):
         return self.a + self.b
+    def diff(self):
+        return self.a - self.b
