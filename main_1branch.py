@@ -7,3 +7,5 @@ class Calculator:
         return self.a + self.b
     def diff(self):
         return self.a - self.b
+    def div(self):
+        return self.a / self.b
