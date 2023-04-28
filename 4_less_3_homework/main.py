@@ -1,5 +1,6 @@
 import asyncio
 import logging
+
 from aiogram.contrib.middlewares.logging import LoggingMiddleware
 
 import handlers
