@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши сотрудники</title>
+    <link rel="icon" type="Image/x-coin" href="icon1.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: rgb(178, 213, 243);">
+    <!-- Начало первых кнопок интерфейса -->
+    <div id="interface">
+        <div class="container">
+        <a href="index.html#ListSotrudnikov">
+                <h1 style="font-weight: normal">Список сотрудников</h1>
+            </a>
+            <a href="index.html#BestSotrudnik">
+                <h1 style="font-weight: normal">Сотрудник месяца</h1>
+            </a>
+            <a href="index.html#NewSotrudnik">
+                <h1 style="font-weight: normal">Добавить сотрудника</h1>
+            </a>
+        </div>
+        <br>
+        <hr>
+    </div>
+    <!-- Блок Список сотрудников -->
+    <div id="ListSotrudnikov">
+        <h1 style="text-align: center;">Список сотрудников</h1>
+        <div class="Таблица">
+            <table>
+                <thead>
+                    <tr>
+                        <th id="bestFIO">ФИО</th>
+                        <th id="bestDoljn">Должность</th>
+                        <th id="bestPhone">Номер телефона</th>
+                        <th id="bestEmail">Email</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Карпатов Григорий Андреевич</td>
+                        <td>Старший специалист</td>
+                        <td>8-(818)-555-35-35</td>
+                        <td>karpatov.gr@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Пупкина Алина Альбертовна</td>
+                        <td>Бухгалтер</td>
+                        <td>8-(818)-712-53-12</td>
+                        <td>luchik.solnca@yandex.ru</td>
+                    </tr>
+                    <tr>
+                        <td>Лупкин Шамиль Драйго</td>
+                        <td>Сторож</td>
+                        <td>8-(818)-113-02-03</td>
+                        <td>work1.workwork@mail.ru</td>
+                    </tr>
+                    <tr>
+                        <td>Работов Рамиль Шрайго</td>
+                        <td>Сторож</td>
+                        <td>8-(818)-114-02-03</td>
+                        <td>work2.workwork@mail.ru</td>
+                    </tr>
+                    <tr>
+                        <td>Вупкин Амиль Срайго</td>
+                        <td>Сторож</td>
+                        <td>8-(818)-115-02-03</td>
+                        <td>work3.workwork@mail.ru</td>
+                    </tr>
+                    <tr>
+                        <td>Заупкин Камиль Мрайго</td>
+                        <td>Сторож</td>
+                        <td>8-(818)-116-02-03</td>
+                        <td>work4.workwork@mail.ru</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <hr>
+    </div>
+    <!-- Блок Сотрудник месяца -->
+    <div id="BestSotrudnik">
+        <h1 style="text-align: center;">Сотрудник месяца</h1>
+
+
+        <div class="card">
+            
+            <ul>
+                <li ><img src="foto-chela.jpg" alt="Фото сотрудника" style="width:50%"></li>
+                <li><a href="#bestFIO"><h2>Карпатов Григорий Андреевич</h2></a></li>
+                <li><h3>Старший специалист</h3>  </li>
+                <li>8-(818)-555-35-35</li>
+                <li>karpatov.gr@gmail.com</li>
+        </div>
+        </ul>
+        <hr>
+        <br>
+    </div>
+    <!-- Блок Добавить сотрудника -->
+    <div id="NewSotrudnik">
+        <h1 style="text-align: center;">Добавить сотрудника</h1>
+        <form action="" method="post">
+            ФИО сотрудника
+            <input type="text" name="ФИО">
+        </form>
+        <form action="" method="post">
+            Дата рождения сотрудника
+            <input type="date" name="Дата рождения">
+        </form>
+        <form action="" method="post">
+            Должность сотрудника
+            <input type="text" name="Должность">
+        </form>
+        <form action="" method="post">
+            E-mail
+            <input type="text" name="Email">
+        </form>
+        <form action="" method="post">
+            Номер телефона сотрудника
+            <input type="number" name="Телефон">
+        </form>
+        <form action="" method="post">
+            Код доступа сотрудника
+            <input type="password" name="Код доступа сотрудника">
+        </form>
+        <form action="" method="post">
+            <button type="submit">Отправить данные</button>
+            <button type="reset">Стереть</button>
+        </form>
+    </div>
+</body>
+
+</html>
